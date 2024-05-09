@@ -9,7 +9,7 @@ st.balloons()
 
 # 读取数据
 def get_data_from_excel():
-    df = pd.read_excel(io="/mnt/e/job/streamlit/sheet/Patent/Batteries/Patent.xlsx", engine="openpyxl", sheet_name="Sheet1")
+    df = pd.read_excel(io="./Batteries/Patent.xlsx", engine="openpyxl", sheet_name="Sheet1")
     return df
 
 df = get_data_from_excel()

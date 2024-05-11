@@ -3,5 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="streamlit" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="streamlit" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Remote Python 3.8.10 (sftp://xinyu@10.110.147.123:22/home/Userlist/xinyu/job/streamlit/bin/python)" project-jdk-type="Python SDK" />
 </project>

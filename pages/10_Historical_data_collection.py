@@ -45,18 +45,13 @@ def llm_selector():
 
 
 
-st.title("📝 Patent disclosure document")
-uploaded_file = st.file_uploader("Upload an article", type=("txt", "md", "docx"))
+st.title("🕔 Historical data collection")
+uploaded_file = st.file_uploader("Upload an article", type=("txt"))
 
 
 model = llm_selector()
 chat_key = f"对话_chat_history_{model}"  # Unique key for each mode and model
-default_prompt = ("你是一位有用的中文助手，回答我的任何问题都要详细说明，并且用中文回答我。"
-                  "我要升成一篇专利交底书，请用中文回答我."
-                  "内容包括发明名称、技术领域、现有技术一的技术方案、现有技术一的缺点、"
-                  "与本发明相关的现有技术二、本发明所要解决的技术问题、本发明提供的完整技术方案、"
-                  "本发明技术方案带来的有益效果、针对本发明提供的完整技术方案中的技术方案，"
-                  "是否还有别的替代方案同样能完成发明目的、本发明的技术关键点和欲保护点是什么。")
+default_prompt = ("我现在将要给你传送历史数据，你需要整理这个数据然后给我发送清洗后的历史数据。要求格式：json格式。")
 
 system_prompt = system_prompt_input(default_prompt)
 init_chat_history(chat_key, system_prompt)

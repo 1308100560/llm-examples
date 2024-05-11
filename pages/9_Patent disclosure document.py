@@ -45,7 +45,7 @@ def llm_selector():
 
 
 
-st.title("📝 Patent disclosure document")
+st.title("📝 atent disclosure document")
 uploaded_file = st.file_uploader("Upload an article", type=("txt", "md", "docx"))
 
 

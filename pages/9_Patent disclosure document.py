@@ -45,7 +45,7 @@ def llm_selector():
 
 
 
-st.title("📝 atent disclosure document")
+st.title("📝 tent disclosure document")
 uploaded_file = st.file_uploader("Upload an article", type=("txt", "md", "docx"))
 
 

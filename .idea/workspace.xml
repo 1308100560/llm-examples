@@ -1,43 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="39be297d-3daf-4871-a071-c40545206707" name="更改" comment="更新" />
+    <list default="true" id="871eacaa-ec16-470a-be5f-66b377cad2ed" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/pages" />
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
-  </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;1308100560&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/1308100560/llm-examples.git&quot;,
-    &quot;accountId&quot;: &quot;fd02b5df-18fe-4036-beff-7d258a36001f&quot;
-  }
-}</component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 3
-}</component>
-  <component name="ProjectId" id="2gDDbsoElIaB7BQ2lzenb5MwoTb" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2gJhGq4BUCYKl8eCisF2BgweYPW" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -45,37 +19,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
-    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
-    "WebServerToolWindowPanel.toolwindow.show.date": "false",
-    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
-    "WebServerToolWindowPanel.toolwindow.show.size": "false",
-    "git-widget-placeholder": "<unknown>",
     "last_opened_file_path": "E:/job/streamlit/llm-examples",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunAnythingCache">
-    <myKeys>
-      <visibility group="Grunt" flag="true" />
-      <visibility group="Gulp" flag="true" />
-      <visibility group="HTTP 请求" flag="true" />
-      <visibility group="Node.js" flag="true" />
-      <visibility group="Recent projects" flag="true" />
-      <visibility group="Run configurations" flag="true" />
-      <visibility group="npm" flag="true" />
-      <visibility group="yarn" flag="true" />
-      <visibility group="运行 Python 文件" flag="true" />
-      <visibility group="运行 conda 命令" flag="true" />
-      <visibility group="运行 pip 命令" flag="true" />
-    </myKeys>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -87,180 +35,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
-      <changelist id="39be297d-3daf-4871-a071-c40545206707" name="更改" comment="" />
-      <created>1715223329108</created>
+      <changelist id="871eacaa-ec16-470a-be5f-66b377cad2ed" name="更改" comment="" />
+      <created>1715421495944</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1715223329108</updated>
-      <workItem from="1715223330209" duration="1066000" />
-      <workItem from="1715225794353" duration="8228000" />
-      <workItem from="1715394942378" duration="1097000" />
-      <workItem from="1715398562447" duration="12831000" />
+      <updated>1715421495944</updated>
+      <workItem from="1715421497181" duration="53000" />
     </task>
-    <task id="LOCAL-00001" summary="新增专利交底书">
-      <option name="closed" value="true" />
-      <created>1715226175209</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1715226175209</updated>
-    </task>
-    <task id="LOCAL-00002" summary="更新">
-      <option name="closed" value="true" />
-      <created>1715236911757</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1715236911757</updated>
-    </task>
-    <task id="LOCAL-00003" summary="画图_评测三个模型生成的交底书质量">
-      <option name="closed" value="true" />
-      <created>1715237354860</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1715237354860</updated>
-    </task>
-    <task id="LOCAL-00004" summary="更新">
-      <option name="closed" value="true" />
-      <created>1715237687193</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1715237687193</updated>
-    </task>
-    <task id="LOCAL-00005" summary="更新">
-      <option name="closed" value="true" />
-      <created>1715237834258</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1715237834258</updated>
-    </task>
-    <task id="LOCAL-00006" summary="画图_专利交底书">
-      <option name="closed" value="true" />
-      <created>1715238670665</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1715238670665</updated>
-    </task>
-    <task id="LOCAL-00007" summary="更新">
-      <option name="closed" value="true" />
-      <created>1715240692902</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1715240692902</updated>
-    </task>
-    <task id="LOCAL-00008" summary="新增历史数据收集、网情数据收集、上级任务数据收集">
-      <option name="closed" value="true" />
-      <created>1715418443212</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1715418443212</updated>
-    </task>
-    <task id="LOCAL-00009" summary="新增历史数据收集、网情数据收集、上级任务数据收集">
-      <option name="closed" value="true" />
-      <created>1715419064555</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1715419064555</updated>
-    </task>
-    <task id="LOCAL-00010" summary="新增历史数据收集、网情数据收集、上级任务数据收集">
-      <option name="closed" value="true" />
-      <created>1715420443389</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1715420443389</updated>
-    </task>
-    <task id="LOCAL-00011" summary="新增历史数据收集、网情数据收集、上级任务数据收集">
-      <option name="closed" value="true" />
-      <created>1715420572318</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1715420572318</updated>
-    </task>
-    <task id="LOCAL-00012" summary="更新">
-      <option name="closed" value="true" />
-      <created>1715420644852</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1715420644852</updated>
-    </task>
-    <task id="LOCAL-00013" summary="更新">
-      <option name="closed" value="true" />
-      <created>1715420895401</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1715420895401</updated>
-    </task>
-    <task id="LOCAL-00014" summary="更新">
-      <option name="closed" value="true" />
-      <created>1715420956262</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1715420956262</updated>
-    </task>
-    <task id="LOCAL-00015" summary="更新">
-      <option name="closed" value="true" />
-      <created>1715421377132</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1715421377132</updated>
-    </task>
-    <task id="LOCAL-00016" summary="更新">
-      <option name="closed" value="true" />
-      <created>1715421378405</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1715421378405</updated>
-    </task>
-    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="origin/main" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="新增专利交底书" />
-    <MESSAGE value="专利交底书" />
-    <MESSAGE value="画图_评测三个模型生成的交底书质量" />
-    <MESSAGE value="画图_专利交底书" />
-    <MESSAGE value="新增历史数据收集、网情数据收集、上级任务数据收集" />
-    <MESSAGE value="更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新" />
   </component>
 </project>

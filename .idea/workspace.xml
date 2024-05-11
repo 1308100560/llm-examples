@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39be297d-3daf-4871-a071-c40545206707" name="更改" comment="更新">
-      <change beforePath="$PROJECT_DIR$/pages/pages/1_File_Q&amp;A.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/pages/1_File_Q&amp;A.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/pages/2_Chat_with_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/pages/2_Chat_with_search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/pages/3_Langchain_Quickstart.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/pages/3_Langchain_Quickstart.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/pages/4_Langchain_PromptTemplate.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/pages/4_Langchain_PromptTemplate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/pages/5_Chat_with_user_feedback.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/pages/5_Chat_with_user_feedback.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/pages/6_Speech_Recognition.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/pages/6_Speech_Recognition.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/pages/7_Text_error_correction.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/pages/7_Text_error_correction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/pages/9_Patent disclosure document.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/pages/9_Patent disclosure document.py" afterDir="false" />
-    </list>
+    <list default="true" id="39be297d-3daf-4871-a071-c40545206707" name="更改" comment="更新" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,6 +51,7 @@
     "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
     "WebServerToolWindowPanel.toolwindow.show.size": "false",
     "git-widget-placeholder": "<unknown>",
+    "last_opened_file_path": "E:/job/streamlit/llm-examples",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -103,7 +95,7 @@
       <workItem from="1715223330209" duration="1066000" />
       <workItem from="1715225794353" duration="8228000" />
       <workItem from="1715394942378" duration="1097000" />
-      <workItem from="1715398562447" duration="12515000" />
+      <workItem from="1715398562447" duration="12831000" />
     </task>
     <task id="LOCAL-00001" summary="新增专利交底书">
       <option name="closed" value="true" />
@@ -217,7 +209,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715420956262</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="更新">
+      <option name="closed" value="true" />
+      <created>1715421377132</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1715421377132</updated>
+    </task>
+    <task id="LOCAL-00016" summary="更新">
+      <option name="closed" value="true" />
+      <created>1715421378405</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1715421378405</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

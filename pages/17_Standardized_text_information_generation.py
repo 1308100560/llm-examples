@@ -45,16 +45,18 @@ def llm_selector():
 
 
 
-
 # 设置页面标题和图标
-st.set_page_config(page_title="上级任务数据收集", page_icon="📈")
+st.set_page_config(page_title="标准化文本信息生成", page_icon="📜")
 
-st.title("📈 上级任务数据收集")
-uploaded_file = st.file_uploader("上传上级任务数据", type=("txt"))
+# 标题
+st.title("📜 标准化文本信息生成")
+
+# 文件上传器
+uploaded_file = st.file_uploader("上传文本信息", type=("txt"))
 
 model = llm_selector()
 chat_key = f"对话_chat_history_{model}"  # Unique key for each mode and model
-default_prompt = ("我现在将要给你传送上级任务数据，你需要整理这个数据然后给我发送清洗后的任务数据。要求格式：json格式。")
+default_prompt = ("我现在将要给你传送文本信息，你需要整理这个文本信息然后将语句中的错字、多字、少字修改正确,只输出修改后的句子,要输出其他的。请用中文回答我。")
 
 system_prompt = system_prompt_input(default_prompt)
 init_chat_history(chat_key, system_prompt)

@@ -4,27 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="871eacaa-ec16-470a-be5f-66b377cad2ed" name="更改" comment="更新" />
+    <list default="true" id="871eacaa-ec16-470a-be5f-66b377cad2ed" name="更改" comment="新增历史数据收集、网情数据收集、上级任务数据收集">
+      <change afterPath="$PROJECT_DIR$/pages/13_Text_processing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/14_Speech_processing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/15_Image_Processing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/16_Parameter_integration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/17_Standardized_text_information_generation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/10_Historical_data_collection.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/10_Historical_data_collection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/11_Internet_data_collection.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/11_Internet_data_collection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/12_Collection_of_superior_task_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/12_Collection_of_superior_task_data.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "1308100560"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;1308100560&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/1308100560/llm-examples.git",
-    "accountId": "fd02b5df-18fe-4036-beff-7d258a36001f"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/1308100560/llm-examples.git&quot;,
+    &quot;accountId&quot;: &quot;fd02b5df-18fe-4036-beff-7d258a36001f&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 3
@@ -37,6 +54,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "E:/job/streamlit/llm-examples",
     "node.js.detected.package.eslint": "true",
@@ -66,6 +88,8 @@
       <updated>1715421495944</updated>
       <workItem from="1715421497181" duration="53000" />
       <workItem from="1715421551080" duration="709000" />
+      <workItem from="1715422266007" duration="336000" />
+      <workItem from="1715562279999" duration="18518000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <option name="closed" value="true" />
@@ -83,14 +107,50 @@
       <option name="project" value="LOCAL" />
       <updated>1715421863287</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="更新">
+      <option name="closed" value="true" />
+      <created>1715422278652</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715422278652</updated>
+    </task>
+    <task id="LOCAL-00004" summary="更新">
+      <option name="closed" value="true" />
+      <created>1715422446617</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715422446617</updated>
+    </task>
+    <task id="LOCAL-00005" summary="新增历史数据收集、网情数据收集、上级任务数据收集">
+      <option name="closed" value="true" />
+      <created>1715422559921</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715422559921</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新" />
+    <MESSAGE value="新增历史数据收集、网情数据收集、上级任务数据收集" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增历史数据收集、网情数据收集、上级任务数据收集" />
   </component>
 </project>

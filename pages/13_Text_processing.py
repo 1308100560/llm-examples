@@ -1,3 +1,4 @@
+
 import streamlit as st
 import anthropic
 import ollama as ol
@@ -47,14 +48,14 @@ def llm_selector():
 
 
 # 设置页面标题和图标
-st.set_page_config(page_title="上级任务数据收集", page_icon="📈")
+st.set_page_config(page_title="文本处理", page_icon="📝")
 
-st.title("📈 上级任务数据收集")
-uploaded_file = st.file_uploader("上传上级任务数据", type=("txt"))
+st.title("📝 文本处理")
+uploaded_file = st.file_uploader("上传文本", type=("txt"))
 
 model = llm_selector()
 chat_key = f"对话_chat_history_{model}"  # Unique key for each mode and model
-default_prompt = ("我现在将要给你传送上级任务数据，你需要整理这个数据然后给我发送清洗后的任务数据。要求格式：json格式。")
+default_prompt = ("我现在将要给你传送一个文本，你需要整理这个文本然后给我发送处理后的文本（关键词、短语等）。")
 
 system_prompt = system_prompt_input(default_prompt)
 init_chat_history(chat_key, system_prompt)

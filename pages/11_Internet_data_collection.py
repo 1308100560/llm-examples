@@ -45,52 +45,58 @@ def llm_selector():
 
 
 
-st.title("🖥️ Internet data collection")
-uploaded_file = st.file_uploader("Upload an article", type=("txt"))
 
+# 设置页面标题和图标
+st.set_page_config(page_title="网情数据收集", page_icon="📊")
+
+st.title("📊 网情数据收集")
+uploaded_file = st.file_uploader("上传网情数据", type=("txt"))
 
 model = llm_selector()
-chat_key = f"对话_chat_history_{model}"  # Unique key for each mode and model
+chat_key = f"对话_chat_history_{model}"  # 每种模式和模型的唯一键
 default_prompt = ("我现在将要给你传送网情数据,你需要提取这个数据特征之后发给我，要求格式：json格式。")
 
 system_prompt = system_prompt_input(default_prompt)
 init_chat_history(chat_key, system_prompt)
 chat_history = get_chat_history(chat_key)
-for message in chat_history:
-    print_chat_message(message)
-
-question = st.chat_input()
 
 debug_mode = st.sidebar.checkbox("Debug Mode", value=True)
-log_interaction("User input", {"mode": "对话", "question": question})
 
-if question:
-    prompt = f"""{anthropic.HUMAN_PROMPT} Here's an article:\n\n<article>
-    {question}\n\n</article>\n\n{question}{anthropic.AI_PROMPT}"""
+# 创建两列布局，左边显示用户输入，右边显示模型输出
+user_input_col, model_output_col = st.columns(2)
 
-    if question:
-        user_message = {"role": "user", "content": question}
+# 用户输入列
+with user_input_col:
+    question = st.text_area("用户输入")
+    if st.button("提交"):
+        log_interaction("User input", {"mode": "对话", "question": question})
 
-        # if app_mode == "语音识别":
-        print_chat_message(user_message)
-        chat_history.append(user_message)
-        if uploaded_file:
-            article = uploaded_file.read().decode()
-            chat_history.append({"role": "user", "content": article})  # 添加用户上传的文件内容作为对话历史的一部分
-        response = ol.chat(model=model, messages=chat_history)
-        answer = response['message']['content']
-        ai_message = {"role": "assistant", "content": answer}
-        print_chat_message(ai_message)
-        chat_history.append(ai_message)
-        debug_info = {"messages": chat_history, "response": response}
+        if question:
+            user_message = {"role": "user", "content": question}
+            print_chat_message(user_message)
+            chat_history.append(user_message)
 
-        if debug_mode:
-            st.write("Debug Info: Complete Prompt Interaction")
-            st.json(debug_info)
+            if uploaded_file:
+                article = uploaded_file.read().decode()
+                chat_history.append({"role": "user", "content": article})
 
-        # truncate chat history to keep 20 messages max
-        if len(chat_history) > 20:
-            chat_history = chat_history[-20:]
+            response = ol.chat(model=model, messages=chat_history)
+            answer = response['message']['content']
 
-        # update chat history
-        st.session_state.chat_history[chat_key] = chat_history
+            # 模型输出列
+            with model_output_col:
+                ai_message = {"role": "assistant", "content": answer}
+                print_chat_message(ai_message)
+                chat_history.append(ai_message)
+
+                debug_info = {"messages": chat_history, "response": response}
+
+                if debug_mode:
+                    st.write("Debug Info: Complete Prompt Interaction")
+                    st.json(debug_info)
+
+                if len(chat_history) > 20:
+                    chat_history = chat_history[-20:]
+
+
+                st.session_state.chat_history[chat_key] = chat_history

@@ -45,16 +45,18 @@ def llm_selector():
 
 
 
-
 # 设置页面标题和图标
-st.set_page_config(page_title="上级任务数据收集", page_icon="📈")
+st.set_page_config(page_title="参数整合", page_icon="🔧")
 
-st.title("📈 上级任务数据收集")
-uploaded_file = st.file_uploader("上传上级任务数据", type=("txt"))
+# 标题
+st.title("🔧 参数整合")
+
+# 文件上传器
+uploaded_file = st.file_uploader("上传参数", type=("txt"))
 
 model = llm_selector()
 chat_key = f"对话_chat_history_{model}"  # Unique key for each mode and model
-default_prompt = ("我现在将要给你传送上级任务数据，你需要整理这个数据然后给我发送清洗后的任务数据。要求格式：json格式。")
+default_prompt = ("我现在将要给你传送参数，你需要整理这个参数然后根据我发送的内容提取出我需要的参数。要求格式：json格式。")
 
 system_prompt = system_prompt_input(default_prompt)
 init_chat_history(chat_key, system_prompt)

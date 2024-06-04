@@ -5,11 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="871eacaa-ec16-470a-be5f-66b377cad2ed" name="更改" comment="更新">
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/llm-examples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/llm-examples.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/13_ext processing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sheet/Patent/Batteries/llama3/生成内容.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sheet/Patent/Batteries/llama3/生成内容.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sheet/Patent/Batteries/llama3_chinses/生成内容.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sheet/Patent/Batteries/llama3_chinses/生成内容.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sheet/Patent/Batteries/qwen/生成内容.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sheet/Patent/Batteries/qwen/生成内容.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/9_Patent disclosure document.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/9_Patent disclosure document.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet/Patent/Batteries/Patent.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/sheet/Patent/Batteries/Patent.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet/Patent/Batteries/llama3/llama3.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet/Patent/Batteries/llama3/llama3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet/Patent/Batteries/llama3_chinses/llama3_chinese.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet/Patent/Batteries/llama3_chinses/llama3_chinese.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet/Patent/Batteries/qwen/qwen.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet/Patent/Batteries/qwen/qwen.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet/Patent/Patent.py" beforeDir="false" afterPath="$PROJECT_DIR$/sheet/Patent/Patent.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,9 +50,6 @@
     &quot;accountId&quot;: &quot;fd02b5df-18fe-4036-beff-7d258a36001f&quot;
   }
 }</component>
-  <component name="PerforceDirect.Settings">
-    <option name="CHARSET" value="无" />
-  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 3
@@ -52,6 +61,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python.Patent.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
@@ -65,10 +75,40 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Patent" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="llm-examples" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sheet/Patent" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sheet/Patent/Patent.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Patent" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -90,7 +130,12 @@
       <workItem from="1715422266007" duration="336000" />
       <workItem from="1715562279999" duration="21355000" />
       <workItem from="1715591679537" duration="1305000" />
-      <workItem from="1715821346632" duration="2739000" />
+      <workItem from="1715821346632" duration="3583000" />
+      <workItem from="1715824970919" duration="6000" />
+      <workItem from="1715829061599" duration="9505000" />
+      <workItem from="1715908297909" duration="112000" />
+      <workItem from="1717401051647" duration="4374000" />
+      <workItem from="1717463400090" duration="5877000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <option name="closed" value="true" />
@@ -140,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715588871804</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="更新">
+      <option name="closed" value="true" />
+      <created>1715824469219</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1715824469219</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,5 +214,8 @@
     <MESSAGE value="新增历史数据收集、网情数据收集、上级任务数据收集" />
     <MESSAGE value="更新" />
     <option name="LAST_COMMIT_MESSAGE" value="更新" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/llm_examples$Patent.coverage" NAME="Patent 覆盖结果" MODIFIED="1715844275947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sheet/Patent" />
   </component>
 </project>

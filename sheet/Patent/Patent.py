@@ -18,11 +18,13 @@ df = get_data_from_excel()
 st.title(":bar_chart: 模型评分")
 st.markdown("##")
 
+# df["model_prompt"] = df["model"] + df["prompt"]
+
 # 横向条形图
 fig_model = px.bar(
     data_frame=df,
     x="总分",
-    y="模型",
+    y="model",
     orientation="h",
     title="<b>模型评分</b>"
 )

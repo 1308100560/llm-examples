@@ -48,8 +48,6 @@ def llm_selector():
 st.set_page_config(page_title="专利交底书", page_icon="📝")
 
 st.title("📝 专利交底书")
-# 添加自定义图片
-st.image("image.png", caption="Custom Image")
 
 uploaded_file = st.file_uploader("Upload an article", type=("txt", "md", "docx"))
 
@@ -92,7 +90,6 @@ if question:
     if question:
         user_message = {"role": "user", "content": question}
 
-        # if app_mode == "语音识别":
         print_chat_message(user_message)
         chat_history.append(user_message)
 

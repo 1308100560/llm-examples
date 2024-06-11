@@ -5,23 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="871eacaa-ec16-470a-be5f-66b377cad2ed" name="更改" comment="更新">
-      <change afterPath="$PROJECT_DIR$/pages/13_ext processing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sheet/Patent/Batteries/llama3/生成内容.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sheet/Patent/Batteries/llama3/生成内容.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sheet/Patent/Batteries/llama3_chinses/生成内容.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sheet/Patent/Batteries/llama3_chinses/生成内容.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sheet/Patent/Batteries/qwen/生成内容.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sheet/Patent/Batteries/qwen/生成内容.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/9_Patent disclosure document.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/9_Patent disclosure document.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sheet/Patent/Batteries/Patent.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/sheet/Patent/Batteries/Patent.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sheet/Patent/Batteries/llama3/llama3.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sheet/Patent/Batteries/llama3/llama3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sheet/Patent/Batteries/llama3_chinses/llama3_chinese.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sheet/Patent/Batteries/llama3_chinses/llama3_chinese.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sheet/Patent/Batteries/qwen/qwen.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sheet/Patent/Batteries/qwen/qwen.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sheet/Patent/Patent.py" beforeDir="false" afterPath="$PROJECT_DIR$/sheet/Patent/Patent.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +122,10 @@
       <workItem from="1715829061599" duration="9505000" />
       <workItem from="1715908297909" duration="112000" />
       <workItem from="1717401051647" duration="4374000" />
-      <workItem from="1717463400090" duration="5877000" />
+      <workItem from="1717463400090" duration="6844000" />
+      <workItem from="1717569583590" duration="2507000" />
+      <workItem from="1718085811134" duration="1619000" />
+      <workItem from="1718092436476" duration="4283000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <option name="closed" value="true" />
@@ -193,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715824469219</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="更新">
+      <option name="closed" value="true" />
+      <created>1717470916728</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1717470916728</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

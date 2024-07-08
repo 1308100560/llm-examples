@@ -5,10 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="871eacaa-ec16-470a-be5f-66b377cad2ed" name="更改" comment="更新">
+      <change afterPath="$PROJECT_DIR$/../../../PyTorch/d2l/4/4.8. 数值稳定性和模型初始化.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/10_API_Patent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/llm-examples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/llm-examples.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/10_Historical_data_collection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/11_Internet_data_collection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/12_Collection_of_superior_task_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/13_Text_processing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/14_Speech_processing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/15_Image_Processing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/16_Parameter_integration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/17_Standardized_text_information_generation.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/9_Patent disclosure document.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/9_Patent disclosure document.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sheet/Patent/Batteries/Patent.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/sheet/Patent/Batteries/Patent.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet/Patent/Batteries/llama3/生成内容.docx" beforeDir="false" afterPath="$PROJECT_DIR$/sheet/Patent/Batteries/llama3/生成内容.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet/Patent/Batteries/llama3/生成内容.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sheet/Patent/Batteries/llama3/生成内容.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet/Patent/Batteries/llama3_chinses/生成内容.docx" beforeDir="false" afterPath="$PROJECT_DIR$/sheet/Patent/Batteries/llama3_chinses/生成内容.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet/Patent/Batteries/llama3_chinses/生成内容.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sheet/Patent/Batteries/llama3_chinses/生成内容.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet/Patent/Batteries/qwen/生成内容.docx" beforeDir="false" afterPath="$PROJECT_DIR$/sheet/Patent/Batteries/qwen/生成内容.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sheet/Patent/Batteries/qwen/生成内容.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sheet/Patent/Batteries/qwen/生成内容.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,18 +55,30 @@
     &quot;accountId&quot;: &quot;fd02b5df-18fe-4036-beff-7d258a36001f&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2gJhGq4BUCYKl8eCisF2BgweYPW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python.4.4. 模型选择、欠拟合和过拟合.executor&quot;: &quot;Run&quot;,
+    &quot;Python.4.5. 权重衰减.executor&quot;: &quot;Run&quot;,
+    &quot;Python.4.8. 数值稳定性和模型初始化.executor&quot;: &quot;Run&quot;,
+    &quot;Python.9_Patent disclosure document.executor&quot;: &quot;Run&quot;,
     &quot;Python.Patent.executor&quot;: &quot;Run&quot;,
+    &quot;Python.openid.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scratch.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scratch_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.shiyan.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
@@ -62,12 +92,40 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/新建临时文件&quot;: [
+      &quot;Python&quot;
+    ]
   }
 }</component>
-  <component name="RunManager">
-    <configuration name="Patent" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.4.8. 数值稳定性和模型初始化">
+    <configuration name="4.8. 数值稳定性和模型初始化" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyTorch" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../PyTorch/d2l/4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../PyTorch/d2l/4/4.8. 数值稳定性和模型初始化.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="9_Patent disclosure document" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="llm-examples" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -76,12 +134,81 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sheet/Patent" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pages" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sheet/Patent/Patent.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pages/9_Patent disclosure document.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="openid" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="llm-examples" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sheet" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sheet/openid.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="scratch_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="llm-examples" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$APPLICATION_CONFIG_DIR$/scratches" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="shiyan" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="llm-examples" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sheet" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sheet/shiyan.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -92,7 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Patent" />
+        <item itemvalue="Python.4.8. 数值稳定性和模型初始化" />
+        <item itemvalue="Python.9_Patent disclosure document" />
+        <item itemvalue="Python.openid" />
+        <item itemvalue="Python.scratch_1" />
+        <item itemvalue="Python.shiyan" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +256,27 @@
       <workItem from="1717463400090" duration="6844000" />
       <workItem from="1717569583590" duration="2507000" />
       <workItem from="1718085811134" duration="1619000" />
-      <workItem from="1718092436476" duration="4283000" />
+      <workItem from="1718092436476" duration="4989000" />
+      <workItem from="1718153575204" duration="1780000" />
+      <workItem from="1718159260639" duration="9732000" />
+      <workItem from="1718240493319" duration="10990000" />
+      <workItem from="1718259017075" duration="7190000" />
+      <workItem from="1718266622317" duration="5994000" />
+      <workItem from="1718327480654" duration="18075000" />
+      <workItem from="1718586554943" duration="12583000" />
+      <workItem from="1718672917606" duration="7588000" />
+      <workItem from="1718762924564" duration="18049000" />
+      <workItem from="1718845645709" duration="18507000" />
+      <workItem from="1718931860147" duration="16900000" />
+      <workItem from="1719191384078" duration="39989000" />
+      <workItem from="1719454162879" duration="2366000" />
+      <workItem from="1719537060319" duration="3904000" />
+      <workItem from="1719815812404" duration="10205000" />
+      <workItem from="1719882277109" duration="17262000" />
+      <workItem from="1719968755794" duration="6472000" />
+      <workItem from="1719987661080" duration="5686000" />
+      <workItem from="1720055711382" duration="2940000" />
+      <workItem from="1720141715121" duration="9707000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <option name="closed" value="true" />
@@ -191,7 +342,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717470916728</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="更新">
+      <option name="closed" value="true" />
+      <created>1718098519766</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1718098519766</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +373,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="更新" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/llm_examples$scratch.coverage" NAME="scratch 覆盖结果" MODIFIED="1718958278046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/llm_examples$4_5__.coverage" NAME="4.5. 权重衰减 覆盖结果" MODIFIED="1718357789230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../PyTorch/d2l/4" />
+    <SUITE FILE_PATH="coverage/llm_examples$4_8__.coverage" NAME="4.8. 数值稳定性和模型初始化 覆盖结果" MODIFIED="1719988576834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../PyTorch/d2l/4" />
+    <SUITE FILE_PATH="coverage/llm_examples$shiyan.coverage" NAME="shiyan 覆盖结果" MODIFIED="1718963952998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sheet" />
+    <SUITE FILE_PATH="coverage/llm_examples$4_4__.coverage" NAME="4.4. 模型选择、欠拟合和过拟合 覆盖结果" MODIFIED="1718334511838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../PyTorch/d2l/4" />
+    <SUITE FILE_PATH="coverage/llm_examples$9_Patent_disclosure_document.coverage" NAME="9_Patent disclosure document 覆盖结果" MODIFIED="1719903068825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pages" />
     <SUITE FILE_PATH="coverage/llm_examples$Patent.coverage" NAME="Patent 覆盖结果" MODIFIED="1715844275947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sheet/Patent" />
+    <SUITE FILE_PATH="coverage/llm_examples$scratch_1.coverage" NAME="scratch_1 覆盖结果" MODIFIED="1719303228507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/llm_examples$openid.coverage" NAME="openid 覆盖结果" MODIFIED="1719368261323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sheet" />
   </component>
 </project>

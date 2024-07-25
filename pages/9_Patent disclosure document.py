@@ -148,7 +148,19 @@ elif 'article' not in st.session_state:
     st.session_state.article = ''
 
 # User input for question
-question = st.text_area("输入问题：", key="input0", placeholder="名称：\n方案：\n效果：\n数据：", height=200)
+question = st.text_area("输入问题：", key="input0", placeholder="名称：（请填写方案的名称）\n"
+                                                               "方案：（简要描述方案的原理和整体流程）\n"
+                                                               "步骤1：预处理（具体描述预处理的操作，包括数据清洗、格式转换等）\n"
+                                                               "步骤2：（描述第二步的操作，包含具体的技术或方法）\n"
+                                                               "步骤3：（继续描述后续步骤，依此类推）\n"
+                                                               "效果：\n"
+                                                               "预处理效果：（描述预处理后数据的改善或变化，例如噪声减少、数据完整性提升等）\n"
+                                                               "步骤2效果：（描述第二步的具体效果，例如模型训练效果提升、准确率变化等）\n"
+                                                               "步骤3效果：（继续描述每个步骤的具体效果，依此类推）\n"
+                                                               "数据：\n"
+                                                               "步骤1开始到结束的数据：时间： （填写具体的时间范围或处理时间）温度： （填写实验或处理过程中涉及的温度范围）浓度： （填写相关物质的浓度范围）\n"
+                                                               "步骤2的数据：时间： （填写具体的时间范围或处理时间）温度： （填写实验或处理过程中涉及的温度范围）浓度： （填写相关物质的浓度范围）\n"
+                                                               "步骤3的数据：时间： （填写具体的时间范围或处理时间）温度： （填写实验或处理过程中涉及的温度范围）浓度： （填写相关物质的浓度范围）\n", height=200)
 debug_mode = st.sidebar.checkbox("Debug Mode", value=False)
 
 # Handle user question submission
@@ -203,8 +215,10 @@ if st.button("发送", key="button1"):
                             '内容：' + response_0['results'][1]['abs'])
                 elif "现有技术一的技术方案" in merged_prompt[i]:
                     answer = (response_0['results'][0]['claimsPath'])
+                    answer = re.sub(r'<[^>]*>', '', answer)
                 elif "现有技术二的技术方案" in merged_prompt[i]:
                     answer = (response_0['results'][1]['claimsPath'])
+                    answer = re.sub(r'<[^>]*>', '', answer)
                 else:
                     response = ol.chat(model=model, messages=chat_history)
                     answer = response["message"]["content"]

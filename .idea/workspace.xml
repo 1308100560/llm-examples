@@ -5,28 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="871eacaa-ec16-470a-be5f-66b377cad2ed" name="更改" comment="更新">
-      <change afterPath="$PROJECT_DIR$/../../../PyTorch/d2l/4/4.8. 数值稳定性和模型初始化.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/10_API_Patent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/llm-examples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/llm-examples.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PyTorch/d2l/4/4.10. 实战Kaggle比赛：预测房价.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/10_Historical_data_collection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/11_Internet_data_collection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/12_Collection_of_superior_task_data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/13_Text_processing.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/14_Speech_processing.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/15_Image_Processing.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/16_Parameter_integration.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/17_Standardized_text_information_generation.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/9_Patent disclosure document.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/9_Patent disclosure document.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sheet/Patent/Batteries/Patent.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/sheet/Patent/Batteries/Patent.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sheet/Patent/Batteries/llama3/生成内容.docx" beforeDir="false" afterPath="$PROJECT_DIR$/sheet/Patent/Batteries/llama3/生成内容.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sheet/Patent/Batteries/llama3/生成内容.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sheet/Patent/Batteries/llama3/生成内容.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sheet/Patent/Batteries/llama3_chinses/生成内容.docx" beforeDir="false" afterPath="$PROJECT_DIR$/sheet/Patent/Batteries/llama3_chinses/生成内容.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sheet/Patent/Batteries/llama3_chinses/生成内容.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sheet/Patent/Batteries/llama3_chinses/生成内容.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sheet/Patent/Batteries/qwen/生成内容.docx" beforeDir="false" afterPath="$PROJECT_DIR$/sheet/Patent/Batteries/qwen/生成内容.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sheet/Patent/Batteries/qwen/生成内容.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sheet/Patent/Batteries/qwen/生成内容.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,39 +49,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.4.4. 模型选择、欠拟合和过拟合.executor&quot;: &quot;Run&quot;,
-    &quot;Python.4.5. 权重衰减.executor&quot;: &quot;Run&quot;,
-    &quot;Python.4.8. 数值稳定性和模型初始化.executor&quot;: &quot;Run&quot;,
-    &quot;Python.9_Patent disclosure document.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Patent.executor&quot;: &quot;Run&quot;,
-    &quot;Python.openid.executor&quot;: &quot;Run&quot;,
-    &quot;Python.scratch.executor&quot;: &quot;Run&quot;,
-    &quot;Python.scratch_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.shiyan.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/job/streamlit/llm-examples&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.4.4. 模型选择、欠拟合和过拟合.executor": "Run",
+    "Python.4.5. 权重衰减.executor": "Run",
+    "Python.4.8. 数值稳定性和模型初始化.executor": "Run",
+    "Python.9_Patent disclosure document.executor": "Run",
+    "Python.Patent.executor": "Run",
+    "Python.openid.executor": "Run",
+    "Python.scratch.executor": "Run",
+    "Python.scratch_1.executor": "Run",
+    "Python.shiyan.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "E:/job/spider",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "terminal",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/新建临时文件&quot;: [
-      &quot;Python&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/新建临时文件": [
+      "Python"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Python.4.8. 数值稳定性和模型初始化">
     <configuration name="4.8. 数值稳定性和模型初始化" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PyTorch" />
@@ -276,7 +257,9 @@
       <workItem from="1719968755794" duration="6472000" />
       <workItem from="1719987661080" duration="5686000" />
       <workItem from="1720055711382" duration="2940000" />
-      <workItem from="1720141715121" duration="9707000" />
+      <workItem from="1720141715121" duration="21809000" />
+      <workItem from="1720661377169" duration="1974000" />
+      <workItem from="1721113540738" duration="1712000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <option name="closed" value="true" />
@@ -350,7 +333,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718098519766</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="更新">
+      <option name="closed" value="true" />
+      <created>1720406087649</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1720406087649</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

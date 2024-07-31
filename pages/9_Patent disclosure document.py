@@ -190,6 +190,7 @@ if st.button("发送", key="button1"):
         if isinstance(response_0, int):
             st.error(f"Error: {response_0}")
         else:
+            breakpoint()
             technology_1 = ('专利名：' + response_0['results'][0]['title'] + '\n' + '专利号：' + response_0['results'][0]['appNumber'][0] + '\n' +
                             '内容：' + response_0['results'][0]['abs'] + response_0['results'][0]['claimsPath'])
             technology_2 = ('专利名：' + response_0['results'][1]['title'] + '\n' + '专利号：' + response_0['results'][1]['appNumber'][0] + '\n' +

@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="871eacaa-ec16-470a-be5f-66b377cad2ed" name="更改" comment="更新">
-      <change afterPath="$PROJECT_DIR$/../../../PyTorch/d2l/4/4.10. 实战Kaggle比赛：预测房价.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PyTorch/d2l/5/5.2 参数管理.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_deep-learning-computation/model-construction.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_deep-learning-computation/model-construction.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_deep-learning-computation/model-construction.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_deep-learning-computation/model-construction.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_deep-learning-computation/model-construction.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_deep-learning-computation/model-construction.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_deep-learning-computation/model-construction.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_deep-learning-computation/model-construction.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l/5/5.1 层和块.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l/5/5.1 层和块.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/9_Patent disclosure document.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/9_Patent disclosure document.py" afterDir="false" />
     </list>
@@ -39,6 +44,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py" root0="SKIP_HIGHLIGHTING" />
   </component>
+  <component name="PerforceDirect.Settings">
+    <option name="CHARSET" value="无" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 3
@@ -49,39 +57,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.4.4. 模型选择、欠拟合和过拟合.executor": "Run",
-    "Python.4.5. 权重衰减.executor": "Run",
-    "Python.4.8. 数值稳定性和模型初始化.executor": "Run",
-    "Python.9_Patent disclosure document.executor": "Run",
-    "Python.Patent.executor": "Run",
-    "Python.openid.executor": "Run",
-    "Python.scratch.executor": "Run",
-    "Python.scratch_1.executor": "Run",
-    "Python.shiyan.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
-    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
-    "WebServerToolWindowPanel.toolwindow.show.date": "false",
-    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
-    "WebServerToolWindowPanel.toolwindow.show.size": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "E:/job/spider",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "terminal",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.4.4. 模型选择、欠拟合和过拟合.executor&quot;: &quot;Run&quot;,
+    &quot;Python.4.5. 权重衰减.executor&quot;: &quot;Run&quot;,
+    &quot;Python.4.8. 数值稳定性和模型初始化.executor&quot;: &quot;Run&quot;,
+    &quot;Python.9_Patent disclosure document.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Patent.executor&quot;: &quot;Run&quot;,
+    &quot;Python.openid.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scratch.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scratch_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.shiyan.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/job/spider&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/新建临时文件": [
-      "Python"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/新建临时文件&quot;: [
+      &quot;Python&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.4.8. 数值稳定性和模型初始化">
     <configuration name="4.8. 数值稳定性和模型初始化" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PyTorch" />
@@ -260,6 +268,9 @@
       <workItem from="1720141715121" duration="21809000" />
       <workItem from="1720661377169" duration="1974000" />
       <workItem from="1721113540738" duration="1712000" />
+      <workItem from="1721875566170" duration="603000" />
+      <workItem from="1721960212752" duration="4880000" />
+      <workItem from="1722307193053" duration="1221000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <option name="closed" value="true" />
@@ -341,7 +352,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720406087649</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="更新">
+      <option name="closed" value="true" />
+      <created>1721875571736</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1721875571736</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

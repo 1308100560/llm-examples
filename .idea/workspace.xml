@@ -5,13 +5,132 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="871eacaa-ec16-470a-be5f-66b377cad2ed" name="更改" comment="更新">
-      <change afterPath="$PROJECT_DIR$/../../../PyTorch/d2l/5/5.2 参数管理.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_deep-learning-computation/model-construction.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_deep-learning-computation/model-construction.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_deep-learning-computation/model-construction.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_deep-learning-computation/model-construction.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_deep-learning-computation/model-construction.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_deep-learning-computation/model-construction.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_deep-learning-computation/model-construction.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_deep-learning-computation/model-construction.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l/5/5.1 层和块.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l/5/5.1 层和块.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PyTorch/d2l/5/5.3 延后初始化.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PyTorch/d2l/5/5.4. 自定义层.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PyTorch/d2l/5/5.5. 读写文件.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PyTorch/d2l/5/5.6. GPU.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PyTorch/d2l/6/6.2. 图像卷积.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PyTorch/d2l/6/6.3. 填充和步幅.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PyTorch/d2l/6/6.4. 多输入多输出通道.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PyTorch/d2l/6/6.5. 汇聚层.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PyTorch/d2l/6/6.6. 卷积神经网络（LeNet）.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PyTorch/d2l/7/7.1. 深度卷积神经网络（AlexNet）.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PyTorch/d2l/7/7.2. 使用块的网络（VGG）.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PyTorch/d2l/7/7.3. 网络中的网络（NiN）.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PyTorch/d2l/7/7.4. 含并行连结的网络（GoogLeNet）.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/11_lzt8.6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_attention-mechanisms/multihead-attention.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_attention-mechanisms/multihead-attention.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_attention-mechanisms/self-attention-and-positional-encoding.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_attention-mechanisms/self-attention-and-positional-encoding.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_attention-mechanisms/transformer.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_attention-mechanisms/transformer.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_computational-performance/hardware.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_computational-performance/hardware.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_computational-performance/parameterserver.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_computational-performance/parameterserver.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_computer-vision/anchor.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_computer-vision/anchor.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_computer-vision/multiscale-object-detection.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_computer-vision/multiscale-object-detection.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_computer-vision/rcnn.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_computer-vision/rcnn.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_computer-vision/transposed-conv.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_computer-vision/transposed-conv.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_convolutional-modern/alexnet.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_convolutional-modern/alexnet.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_convolutional-modern/batch-norm.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_convolutional-modern/batch-norm.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_convolutional-modern/googlenet.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_convolutional-modern/googlenet.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_convolutional-modern/index.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_convolutional-modern/index.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_convolutional-modern/nin.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_convolutional-modern/nin.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_convolutional-modern/vgg.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_convolutional-modern/vgg.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_convolutional-neural-networks/channels.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_convolutional-neural-networks/channels.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_convolutional-neural-networks/conv-layer.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_convolutional-neural-networks/conv-layer.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_convolutional-neural-networks/padding-and-strides.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_convolutional-neural-networks/padding-and-strides.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_convolutional-neural-networks/pooling.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_convolutional-neural-networks/pooling.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_deep-learning-computation/custom-layer.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_deep-learning-computation/custom-layer.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_natural-language-processing-pretraining/subword-embedding.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_natural-language-processing-pretraining/subword-embedding.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_natural-language-processing-pretraining/word-embedding-dataset.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_natural-language-processing-pretraining/word-embedding-dataset.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_optimization/gd.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_optimization/gd.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_optimization/optimization-intro.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_optimization/optimization-intro.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_preface/index.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_preface/index.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_preliminaries/linear-algebra.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_preliminaries/linear-algebra.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_preliminaries/probability.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_preliminaries/probability.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_recurrent-modern/beam-search.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_recurrent-modern/beam-search.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_recurrent-neural-networks/rnn.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/mxnet/chapter_recurrent-neural-networks/rnn.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_attention-mechanisms/multihead-attention.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_attention-mechanisms/multihead-attention.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_attention-mechanisms/self-attention-and-positional-encoding.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_attention-mechanisms/self-attention-and-positional-encoding.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_attention-mechanisms/transformer.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_attention-mechanisms/transformer.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_computational-performance/hardware.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_computational-performance/hardware.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_computational-performance/parameterserver.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_computational-performance/parameterserver.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_computer-vision/anchor.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_computer-vision/anchor.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_computer-vision/multiscale-object-detection.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_computer-vision/multiscale-object-detection.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_computer-vision/rcnn.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_computer-vision/rcnn.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_computer-vision/transposed-conv.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_computer-vision/transposed-conv.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_convolutional-modern/alexnet.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_convolutional-modern/alexnet.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_convolutional-modern/batch-norm.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_convolutional-modern/batch-norm.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_convolutional-modern/googlenet.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_convolutional-modern/googlenet.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_convolutional-modern/index.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_convolutional-modern/index.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_convolutional-modern/nin.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_convolutional-modern/nin.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_convolutional-modern/vgg.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_convolutional-modern/vgg.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_convolutional-neural-networks/channels.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_convolutional-neural-networks/channels.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_convolutional-neural-networks/conv-layer.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_convolutional-neural-networks/conv-layer.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_convolutional-neural-networks/padding-and-strides.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_convolutional-neural-networks/padding-and-strides.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_convolutional-neural-networks/pooling.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_convolutional-neural-networks/pooling.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_deep-learning-computation/custom-layer.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_deep-learning-computation/custom-layer.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_natural-language-processing-pretraining/subword-embedding.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_natural-language-processing-pretraining/subword-embedding.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_natural-language-processing-pretraining/word-embedding-dataset.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_natural-language-processing-pretraining/word-embedding-dataset.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_optimization/gd.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_optimization/gd.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_optimization/optimization-intro.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_optimization/optimization-intro.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_preface/index.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_preface/index.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_preliminaries/linear-algebra.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_preliminaries/linear-algebra.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_preliminaries/probability.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_preliminaries/probability.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_recurrent-modern/beam-search.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_recurrent-modern/beam-search.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_recurrent-neural-networks/rnn.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/paddle/chapter_recurrent-neural-networks/rnn.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_attention-mechanisms/multihead-attention.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_attention-mechanisms/multihead-attention.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_attention-mechanisms/self-attention-and-positional-encoding.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_attention-mechanisms/self-attention-and-positional-encoding.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_attention-mechanisms/transformer.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_attention-mechanisms/transformer.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_computational-performance/hardware.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_computational-performance/hardware.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_computational-performance/parameterserver.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_computational-performance/parameterserver.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_computer-vision/anchor.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_computer-vision/anchor.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_computer-vision/multiscale-object-detection.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_computer-vision/multiscale-object-detection.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_computer-vision/rcnn.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_computer-vision/rcnn.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_computer-vision/transposed-conv.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_computer-vision/transposed-conv.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_convolutional-modern/alexnet.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_convolutional-modern/alexnet.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_convolutional-modern/batch-norm.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_convolutional-modern/batch-norm.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_convolutional-modern/googlenet.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_convolutional-modern/googlenet.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_convolutional-modern/index.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_convolutional-modern/index.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_convolutional-modern/nin.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_convolutional-modern/nin.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_convolutional-modern/vgg.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_convolutional-modern/vgg.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_convolutional-neural-networks/channels.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_convolutional-neural-networks/channels.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_convolutional-neural-networks/conv-layer.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_convolutional-neural-networks/conv-layer.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_convolutional-neural-networks/padding-and-strides.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_convolutional-neural-networks/padding-and-strides.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_convolutional-neural-networks/pooling.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_convolutional-neural-networks/pooling.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_deep-learning-computation/custom-layer.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_deep-learning-computation/custom-layer.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_natural-language-processing-pretraining/subword-embedding.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_natural-language-processing-pretraining/subword-embedding.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_natural-language-processing-pretraining/word-embedding-dataset.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_natural-language-processing-pretraining/word-embedding-dataset.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_optimization/gd.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_optimization/gd.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_optimization/optimization-intro.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_optimization/optimization-intro.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_preface/index.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_preface/index.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_preliminaries/linear-algebra.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_preliminaries/linear-algebra.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_preliminaries/probability.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_preliminaries/probability.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_recurrent-modern/beam-search.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_recurrent-modern/beam-search.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_recurrent-neural-networks/rnn.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/pytorch/chapter_recurrent-neural-networks/rnn.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_attention-mechanisms/multihead-attention.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_attention-mechanisms/multihead-attention.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_attention-mechanisms/self-attention-and-positional-encoding.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_attention-mechanisms/self-attention-and-positional-encoding.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_attention-mechanisms/transformer.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_attention-mechanisms/transformer.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_computational-performance/hardware.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_computational-performance/hardware.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_computational-performance/parameterserver.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_computational-performance/parameterserver.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_convolutional-modern/alexnet.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_convolutional-modern/alexnet.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_convolutional-modern/googlenet.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_convolutional-modern/googlenet.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_convolutional-modern/index.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_convolutional-modern/index.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_convolutional-modern/nin.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_convolutional-modern/nin.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_convolutional-modern/vgg.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_convolutional-modern/vgg.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_convolutional-neural-networks/channels.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_convolutional-neural-networks/channels.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_convolutional-neural-networks/conv-layer.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_convolutional-neural-networks/conv-layer.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_convolutional-neural-networks/padding-and-strides.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_convolutional-neural-networks/padding-and-strides.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_convolutional-neural-networks/pooling.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_convolutional-neural-networks/pooling.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_deep-learning-computation/custom-layer.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_deep-learning-computation/custom-layer.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_optimization/gd.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_optimization/gd.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_optimization/optimization-intro.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_optimization/optimization-intro.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_preface/index.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_preface/index.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_preliminaries/linear-algebra.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_preliminaries/linear-algebra.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_preliminaries/probability.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_preliminaries/probability.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_recurrent-modern/beam-search.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_recurrent-modern/beam-search.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_recurrent-neural-networks/rnn.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PyTorch/d2l-zh/tensorflow/chapter_recurrent-neural-networks/rnn.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/10_API_Patent.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/10_New_innovation_analysis_report.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/9_Patent disclosure document.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/9_Patent disclosure document.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,9 +162,7 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py" root0="SKIP_HIGHLIGHTING" />
-  </component>
-  <component name="PerforceDirect.Settings">
-    <option name="CHARSET" value="无" />
+    <setting file="file://$PROJECT_DIR$/../../../OneDrive - 奇安新有限责任公司/文档/WeChat Files/xy2001525/FileStorage/File/2024-08/delect.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -64,6 +181,7 @@
     &quot;Python.4.8. 数值稳定性和模型初始化.executor&quot;: &quot;Run&quot;,
     &quot;Python.9_Patent disclosure document.executor&quot;: &quot;Run&quot;,
     &quot;Python.Patent.executor&quot;: &quot;Run&quot;,
+    &quot;Python.delect.executor&quot;: &quot;Run&quot;,
     &quot;Python.openid.executor&quot;: &quot;Run&quot;,
     &quot;Python.scratch.executor&quot;: &quot;Run&quot;,
     &quot;Python.scratch_1.executor&quot;: &quot;Run&quot;,
@@ -90,7 +208,12 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Python.4.8. 数值稳定性和模型初始化">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="post_url = 'https://www.chonghus.com/hxapi/qc/zytxt'" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.delect">
     <configuration name="4.8. 数值稳定性和模型初始化" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PyTorch" />
       <option name="ENV_FILES" value="" />
@@ -129,6 +252,29 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pages/9_Patent disclosure document.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="delect" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="llm-examples" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../OneDrive - 奇安新有限责任公司/文档/WeChat Files/xy2001525/FileStorage/File/2024-08" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../OneDrive - 奇安新有限责任公司/文档/WeChat Files/xy2001525/FileStorage/File/2024-08/delect.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -183,36 +329,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="shiyan" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="llm-examples" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sheet" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sheet/shiyan.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.delect" />
         <item itemvalue="Python.4.8. 数值稳定性和模型初始化" />
         <item itemvalue="Python.9_Patent disclosure document" />
         <item itemvalue="Python.openid" />
         <item itemvalue="Python.scratch_1" />
-        <item itemvalue="Python.shiyan" />
       </list>
     </recent_temporary>
   </component>
@@ -271,6 +394,37 @@
       <workItem from="1721875566170" duration="603000" />
       <workItem from="1721960212752" duration="4880000" />
       <workItem from="1722307193053" duration="1221000" />
+      <workItem from="1722393997059" duration="5624000" />
+      <workItem from="1722820941277" duration="4594000" />
+      <workItem from="1722927778674" duration="5188000" />
+      <workItem from="1722992724067" duration="14408000" />
+      <workItem from="1723606890226" duration="3853000" />
+      <workItem from="1723684209801" duration="138000" />
+      <workItem from="1724042359637" duration="2619000" />
+      <workItem from="1724048718137" duration="6000" />
+      <workItem from="1724048787865" duration="6000" />
+      <workItem from="1724049015141" duration="4146000" />
+      <workItem from="1724116123446" duration="17000" />
+      <workItem from="1724224979104" duration="4240000" />
+      <workItem from="1724231900040" duration="1045000" />
+      <workItem from="1724288552892" duration="24828000" />
+      <workItem from="1724377438692" duration="1682000" />
+      <workItem from="1724379181957" duration="7918000" />
+      <workItem from="1724634868758" duration="1670000" />
+      <workItem from="1724745732865" duration="1608000" />
+      <workItem from="1724748104890" duration="6922000" />
+      <workItem from="1724825622534" duration="5408000" />
+      <workItem from="1724893312343" duration="2500000" />
+      <workItem from="1725327664710" duration="12176000" />
+      <workItem from="1725354623922" duration="1089000" />
+      <workItem from="1725844507710" duration="4176000" />
+      <workItem from="1725860667035" duration="242000" />
+      <workItem from="1725860934232" duration="30000" />
+      <workItem from="1725939686957" duration="40000" />
+      <workItem from="1726036199765" duration="1830000" />
+      <workItem from="1726106256393" duration="224000" />
+      <workItem from="1726112315428" duration="3780000" />
+      <workItem from="1726215388046" duration="2352000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <option name="closed" value="true" />
@@ -360,7 +514,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721875571736</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="更新">
+      <option name="closed" value="true" />
+      <created>1722394033590</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1722394033590</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,6 +548,7 @@
     <SUITE FILE_PATH="coverage/llm_examples$scratch.coverage" NAME="scratch 覆盖结果" MODIFIED="1718958278046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/llm_examples$4_5__.coverage" NAME="4.5. 权重衰减 覆盖结果" MODIFIED="1718357789230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../PyTorch/d2l/4" />
     <SUITE FILE_PATH="coverage/llm_examples$4_8__.coverage" NAME="4.8. 数值稳定性和模型初始化 覆盖结果" MODIFIED="1719988576834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../PyTorch/d2l/4" />
+    <SUITE FILE_PATH="coverage/llm_examples$delect.coverage" NAME="delect 覆盖结果" MODIFIED="1723102062353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../OneDrive - 奇安新有限责任公司/文档/WeChat Files/xy2001525/FileStorage/File/2024-08" />
     <SUITE FILE_PATH="coverage/llm_examples$shiyan.coverage" NAME="shiyan 覆盖结果" MODIFIED="1718963952998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sheet" />
     <SUITE FILE_PATH="coverage/llm_examples$4_4__.coverage" NAME="4.4. 模型选择、欠拟合和过拟合 覆盖结果" MODIFIED="1718334511838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../PyTorch/d2l/4" />
     <SUITE FILE_PATH="coverage/llm_examples$9_Patent_disclosure_document.coverage" NAME="9_Patent disclosure document 覆盖结果" MODIFIED="1719903068825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pages" />

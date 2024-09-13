@@ -12,6 +12,7 @@ from docx.shared import Inches
 import subprocess
 from bs4 import BeautifulSoup
 import time
+from datetime import datetime
 
 def log_interaction(action, data):
     # 日志记录功能
@@ -134,7 +135,6 @@ def search_patents(x1):
 # 摘要：keys、zhaiyao；
 # 相似度：xsd；
 # 申请号：regno；
-# 权限要求：zqx；
 # 公开号：open_no；
 # 背景技术：bg_tech；
 # 技术领域：techArea；
@@ -148,8 +148,8 @@ def search_patents(x1):
 # 调用 ollama serve 命令
 # subprocess.Popen(["ollama", "serve"])
 # 配置Streamlit页面
-st.set_page_config(page_title="专利交底书", page_icon="📝")  # 设置界面标题和图标
-st.title("📝 专利交底书")  # 显示界面标题
+st.set_page_config(page_title="新创报告", page_icon="📝")  # 设置界面标题和图标
+st.title("📝 专利申请前新创性检索报告")  # 显示界面标题
 uploaded_file = st.file_uploader("Upload an article", type=("txt", "md", "docx"))  # 创建文件上传组件
 
 # LLM模型选择
@@ -159,19 +159,16 @@ with st.sidebar:  # 在侧边栏中显示模型选择器
 
 # 系统提示输入
 default_prompt = (
-    "你是一个专利专业人员，请阅读以上专利内容，详细回答我的任何问题，并且用中文回答我，我需要撰写一篇专利交底书，"
+    "你是一个专利专业人员，请阅读以上专利内容，详细回答我的任何问题，并且用中文回答我，我需要撰写一篇专利申请前新创性检索报告，"
     "请回答以下问题，确保内容详尽，清晰，并符合专利交底书的撰写要求，根据现有内容回答，且字数尽量长，专注于数据，不要说与问题无关的话，不要自己创造问题，"
-    "不要太宽泛，具体到细节领域，直接回答问题内容，不要输出其他回答，以下是我的问题：\n"
-    "发明名称、技术领域：\n"
-    "背景技术：\n"
-    "与本发明最相近似的现有实现方案一（现有技术一的技术方案、现有技术一的缺点）：\n"
-    "与本发明最相近似的现有实现方案二（现有技术二的技术方案、现有技术二的缺点）：\n"
-    "发明内容（发明目的、发明方案、达到的有益效果）：\n"
-    "附图说明(流程图，结构图)：\n"
-    "实施方式：\n"
-    "实施例（一个包含所有所知数据的流程）：\n"
-    "是否还有别的替代方案同样能完成发明目的：\n"
-    "本发明的技术关键点和欲保护点是什么：\n"
+    "不要太宽泛，具体到细节领域，直接回答问题内容，以下是我的问题：\n"
+    "本提案技术方案介绍（首先介绍现有技术，然后介绍本提案解决了现有技术的什么问题）：\n"
+    "现有技术一：\n"
+    "现有技术二：\n"
+    "本专利与现有技术一的区别：\n"
+    "本专利与现有技术二的区别：\n"
+    "申请策略建议：\n"
+    "三、专利评分(每项评分条件按十分制评分。创造性，是否难以绕过，侵权判断是否容易。)：\n"
 )
 merged_prompt = re.split(r'\n', default_prompt)  # 使用正则表达式将默认提示拆分为更小的部分
 
@@ -206,6 +203,7 @@ question = st.text_area("输入问题：", key="input0", placeholder="发明名�
                                                             "[根据需要添加更多有益效果或更多解决的问题]\n" +
                                                             "具体实施例：\n" +
                                                             "[描述一个或多个具体实施例，包括关键参数、操作条件等]\n", height=200)
+question = "本专利：" + question
 debug_mode = st.sidebar.checkbox("Debug Mode", value=False)
 
 # Handle user question submission
@@ -221,12 +219,46 @@ if st.button("发送", key="button1"):
             st.session_state.doc = Document()
             st.session_state.doc.styles['Normal'].font.name = '宋体'
             st.session_state.doc.styles['Normal'].element.rPr.rFonts.set(qn('w:eastAsia'), '宋体')
-
             st.session_state.doc.add_picture('./sheet/SRIPPM.png', width=Inches(2.0), height=Inches(0.5))
-            content = st.session_state.doc.add_heading('', level=1).add_run('专利交底书')
+            content = st.session_state.doc.add_heading('', level=1).add_run('专利申请前新创性检索报告')
             content.font.name = u'宋体'
             content._element.rPr.rFonts.set(qn('w:eastAsia'), u'宋体')
-
+            now = datetime.now()
+            paragraph = st.session_state.doc.add_paragraph(
+                f'本报告基于发明人提交的技术交底书，按照国内专利提案预审工作要求及其中的专利申请新颖性创造性检索标准，'
+                f'预审人员在{now.year}年{now.month}月{now.day}日进行检索后分析完成。'
+            )
+            for run in paragraph.runs:
+                run.font.name = u'宋体'
+                run._element.rPr.rFonts.set(qn('w:eastAsia'), u'宋体')
+            content_1 = st.session_state.doc.add_heading('', level=2).add_run('一、提案基本信息')
+            content_1.font.name = u'宋体'
+            content_1._element.rPr.rFonts.set(qn('w:eastAsia'), u'宋体')
+            paragraph_1 = st.session_state.doc.add_paragraph(
+                "提案名称：()\n"
+                "提案单位：()\n"
+                "提案类型：发明/实用新型\n"
+                "技术联系人信息：\n"
+                "姓名：()，手机：()，邮件：()\n"
+                "预审人员信息：\n"
+                "姓名：()，手机：()，邮件：()\n"
+            )
+            for run in paragraph_1.runs:
+                run.font.name = u'宋体'
+                run._element.rPr.rFonts.set(qn('w:eastAsia'), u'宋体')
+            content_2 = st.session_state.doc.add_heading('', level=2).add_run('二、预审分析意见')
+            content_2.font.name = u'宋体'
+            content_2._element.rPr.rFonts.set(qn('w:eastAsia'), u'宋体')
+            paragraph_2 = st.session_state.doc.add_paragraph(
+                "本提案的方案属于专利法的保护客体，基于目前检索结果初步分析后，预审人员认为本提案具备新颖性及创造性，"
+                "结合专利布局策略及行业专利分布情况，专利提案涉及技术方案具有一定的专利申请布局价值，故将其通过预审。具体分析如下："
+            )
+            for run in paragraph_2.runs:
+                run.font.name = u'宋体'
+                run._element.rPr.rFonts.set(qn('w:eastAsia'), u'宋体')
+            content_2_1 = st.session_state.doc.add_heading('', level=2).add_run('2.1、现有技术及本提案技术方案介绍')
+            content_2_1.font.name = u'宋体'
+            content_2_1._element.rPr.rFonts.set(qn('w:eastAsia'), u'宋体')
         doc = st.session_state.doc
 
         question = str(question)
@@ -235,35 +267,37 @@ if st.button("发送", key="button1"):
         if isinstance(response_0, int):
             st.error(f"Error: {response_0}")
         else:
-            technology_1_zhaiyao = ('专利名：' + response_0['0']['pat_name'] + '\n\n' + '专利号：' + response_0['0']['open_no'] + '\n\n' +
-                            '内容：' + response_0['0']['zhaiyao'])
-            technology_2_zhaiyao = ('专利名：' + response_0['1']['pat_name'] + '\n\n' + '专利号：' + response_0['1']['open_no'] + '\n\n' +
-                            '内容：' + response_0['1']['zhaiyao'])
+            technology_1 = ('现有技术一：' + '\n\n' + '专利名：' + response_0['0']['pat_name'] + '\n\n' + '专利号：' + response_0['0']['open_no'] + '\n\n' +
+                            '内容：' + response_0['0']['pat_qlyqs'])
+            technology_2 = ('现有技术二：' + '\n\n' + '专利名：' + response_0['1']['pat_name'] + '\n\n' + '专利号：' + response_0['1']['open_no'] + '\n\n' +
+                            '内容：' + response_0['1']['pat_qlyqs'])
 
             for i in range(1, len(merged_prompt) - 1):
-                if "背景技术" in merged_prompt[i]:
-                    input_prompt = technology_1_zhaiyao + '\n' + technology_2_zhaiyao + '\n' + merged_prompt[0] + '\n' + merged_prompt[i]
-                elif "与本发明最相近似的现有实现方案一" in merged_prompt[i]:
-                    input_prompt = ("现有技术一：" + '\n\n' + technology_1_zhaiyao + '\n\n' + response_0['0']['pat_examples'] + '\n\n' +
-                                    "本技术：" + '\n\n'  + question + '\n\n' + article + '\n\n'
-                                    + merged_prompt[0] + '\n\n' + merged_prompt[i])
-                elif "与本发明最相近似的现有实现方案二" in merged_prompt[i]:
-                    input_prompt = ("现有技术二：" + '\n\n' + technology_1_zhaiyao + '\n\n' + response_0['1']['pat_examples'] + '\n\n' +
-                                    "本技术：" + '\n\n'  + question + '\n\n' + article + '\n\n'
-                                    + merged_prompt[0] + '\n\n' + merged_prompt[i])
+                if "本专利与现有技术一的区别" in merged_prompt[i]:
+                    input_prompt = question + '\n' + article + '\n' + technology_1 + '\n' + merged_prompt[0] + '\n' + merged_prompt[i]
+                elif "现有技术一" in merged_prompt[i] and "本专利" not in merged_prompt[i]:
+                    input_prompt = technology_1 + '\n' + merged_prompt[0] + '\n' + merged_prompt[i]
+                elif "本专利与现有技术二的区别" in merged_prompt[i]:
+                    input_prompt = question + '\n' + article + '\n' + technology_2 + '\n' + merged_prompt[0] + '\n' + merged_prompt[i]
+                elif "现有技术二" in merged_prompt[i] and "本专利" not in merged_prompt[i]:
+                    input_prompt = technology_2 + '\n' + merged_prompt[0] + '\n' + merged_prompt[i]
                 else:
-                    input_prompt = question + '\n\n' + article + '\n\n' + merged_prompt[0] + '\n\n' + merged_prompt[i]
+                    input_prompt = question + '\n' + article + '\n' + merged_prompt[0] + '\n' + merged_prompt[i]
 
                 user_message = {"role": "user", "content": input_prompt}
                 print_chat_message(user_message)
+
+
+
                 chat_history.append(user_message)
 
-                if "背景技术" in merged_prompt[i]:
+                if "现有技术一" in merged_prompt[i] and "本专利" not in merged_prompt[i]:
+                    answer = (technology_1)
+                elif "现有技术二" in merged_prompt[i] and "本专利" not in merged_prompt[i]:
+                    answer = (technology_2)
+                elif "专利评分" in merged_prompt[i] and "本专利" not in merged_prompt[i]:
                     response = ol.chat(model=model, messages=chat_history)
-                    answer = response["message"]["content"]
-                    answer = (answer + '\n' + '\n' + technology_1_zhaiyao + '\n' + '\n' + technology_2_zhaiyao)
-                elif "附图说明" in merged_prompt[i]:
-                    answer = "流程图，结构图"
+                    answer = response["message"]["content"] + "\n" + "注：每项评分条件按十分制评分。专利评分在评审中比重为45%，其中，创造性25%，是否难以绕过5%，侵权判断是否容易15%。"
                 else:
                     response = ol.chat(model=model, messages=chat_history)
                     answer = response["message"]["content"]
@@ -277,6 +311,24 @@ if st.button("发送", key="button1"):
                 print_chat_message(ai_message)
                 chat_history.append(ai_message)
 
+            content_4 = st.session_state.doc.add_heading('', level=2).add_run('四、预审结论')
+            content_4.font.name = u'宋体'
+            content_4._element.rPr.rFonts.set(qn('w:eastAsia'), u'宋体')
+            paragraph_4 = st.session_state.doc.add_paragraph(
+                "本提案通过预审。\n"
+            )
+            for run in paragraph_4.runs:
+                run.font.name = u'宋体'
+                run._element.rPr.rFonts.set(qn('w:eastAsia'), u'宋体')
+            content_5 = st.session_state.doc.add_heading('', level=2).add_run('五、附件信息')
+            content_5.font.name = u'宋体'
+            content_5._element.rPr.rFonts.set(qn('w:eastAsia'), u'宋体')
+            paragraph_5 = st.session_state.doc.add_paragraph(
+                f"对比文件1({response_0['0']['open_no']})" + '\n' + f"对比文件2({response_0['1']['open_no']})\n"
+            )
+            for run in paragraph_5.runs:
+                run.font.name = u'宋体'
+                run._element.rPr.rFonts.set(qn('w:eastAsia'), u'宋体')
             buffer = io.BytesIO()
             doc.save(buffer)
             buffer.seek(0)
